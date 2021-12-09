@@ -1,15 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Open+Sans:wght@400;600&display=swap');
-
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Inter', sans-serif;
-}
-
 $interfaceWhiteOne: #ffffff;
 $interfaceGreyOne: #CECECE;
 $interfaceGreyTwo: #555555;
@@ -21,3 +9,16 @@ $primaryColorOne: #3D88C6;
 $primaryColorTwo: #2A37AB;
 $primaryColorThree: rgba(61, 136, 198, 0.5);
 $primaryColorFour: rgba(42, 55, 171, 0.5);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Open+Sans:wght@400;600&display=swap');
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Inter', sans-serif;
+}
