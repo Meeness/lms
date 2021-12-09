@@ -1,0 +1,36 @@
+#login{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    img{
+        width: 100px;
+        margin: 100px 0 50px 0;
+    }
+    h1{
+        margin-bottom: 30px;
+    }
+    form{
+        // margin-top: 80px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        .form-group{
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            width: 300px;
+            label{
+                padding: 0 4px;
+            }
+            input{
+                height: 40px;
+                padding: 4px;
+            }
+        }
+        
+
+    }
+}
