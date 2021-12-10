@@ -11,22 +11,69 @@
     <main>
         <section id="login">
             <img src="assets/logo.png" alt="logo">
-            <h1>Sign in</h1>
-            <form action="">
+            <form id="loginForm">
+                <h1>Sign in</h1>
+
+                <div class="successMessage">Password is successfuly
+                    changed, you can now sign in.</div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email">
+                    <input type="text" name="email">
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" autocomplete="on">
+                    <input type="password" autocomplete="on" name="password">
                 </div>
                 <div class="actions">
-                    <button type="submit">Sign in</button>
-                    <a href="recover-password.html">Forgot password?</a>
+                    <button type="submit" class="btn btnPrimary">Sign in</button>
+                    <div id="forgotPassword">
+                        <span>Forgot password</span>
+                    </div>
+                </div>
+            </form>
+
+            <form id="recoverPassword">
+                <h2>Forgot password</h2>
+                <div class="form-group">
+                    <label for="emailRecover">Email</label>
+                    <input type="text" name="emailRecover">
+                </div>
+                <p class="recoverText">Enter your email and we will send you a verification
+                    code to change your password.</p>    
+                <div class="actions">
+                    <button type="submit" class="btn btnPrimary">Send a code</button>
+                </div>
+            </form>
+
+            <form id="emailCode">
+                <h2>Forgot password</h2>
+                <div class="form-group">
+                    <label for="emailCode">Code</label>
+                    <input type="number" name="emailCode">
+                </div>
+                <p class="recoverText">Enter the code you recieved by email</p>    
+                <div class="actions">
+                    <button type="submit" class="btn btnPrimary">Continue</button>
+                </div>
+            </form>
+
+            <form id="changePassword">
+                <h2>Change password</h2>
+                <div class="form-group">
+                    <label for="newPassword">New password</label>
+                    <input type="password" name="newPassword" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label for="repeatPassword">Repeat password</label>
+                    <input type="password" name="repeatPassword" autocomplete="off">
+                </div>
+              
+                <div class="actions">
+                    <button type="submit" class="btn btnPrimary">Send a code</button>
                 </div>
             </form>
         </section>
     </main>
+    <script src="js/login.js"></script>
 </body>
 </html>

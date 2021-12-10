@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main id="account">
+        <h1>Account</h1>
+
+        <section id="profileImage">
+            <img src="assets/profile-image.png" alt="profile-image">
+            <div class="icon">edit</div>
+        </section>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" value="Steve Rogers">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" value="ste.roger@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone no.</label>
+                <input type="text" name="phone" value="94238650">
+            </div>
+            <div class="form-group">
+                <label for="course">Course</label>
+                <input type="text" name="course" value="Web development PBA" readonly disabled>
+            </div>
+            <div class="form-group">
+                <label for="school">School</label>
+                <input type="text" name="school" value="KEA" readonly disabled>
+            </div>
+
+            <div class="actions">
+                <button class="btn btnPrimary">Save changes</button>
+                <button class="btn btnSecondary">Change password</button>
+            </div>
+        </form>
+
+    </main>
+    <script src="js/account.js"></script>
+</body>
+</html>
