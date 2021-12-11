@@ -1,49 +1,70 @@
 @use "./fontawesome/css/all.min.css";
 
 $interfaceWhiteOne: #ffffff;
-$interfaceGreyOne: #CECECE;
+$interfaceGreyOne: #cecece;
 $interfaceGreyTwo: #555555;
 $interfaceGreyThree: #212121;
 $interfaceBlackOne: #070707;
 $interfaceBlackTwo: #000000;
 
-$primaryColorOne: #3D88C6;
-$primaryColorTwo: #2A37AB;
+$primaryColorOne: #3d88c6;
+$primaryColorTwo: #2a37ab;
 $primaryColorThree: rgba(61, 136, 198, 0.5);
 $primaryColorFour: rgba(42, 55, 171, 0.5);
+$primaryColorBlueLowOpacity: rgba(61, 136, 198, 0.2);
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Open+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Open+Sans:wght@400;600&display=swap");
 
-
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Inter', sans-serif;
-}
-
-h1{
-    font-weight: 700;
-}
-
-h2{
-    font-weight: 800;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
 }
 
-h3,label{
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
+h1 {
+  font-weight: 700;
 }
 
-body{
-background: #E0EAFC;
-background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
-background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+h2 {
+  font-weight: 800;
 }
 
-main{
-    margin: 0 15px;
+h3,
+label {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background: #e0eafc;
+  background: -webkit-linear-gradient(to right, #cfdef3, #e0eafc);
+  background: linear-gradient(to right, #cfdef3, #e0eafc);
+}
+
+main {
+  //margin: 0 15px;
+}
+
+// general style for inside squares
+
+.section {
+  background-color: $interfaceWhiteOne;
+  border: 1px solid $interfaceGreyOne;
+  border-radius: 10px;
+  padding: 1.5rem 0;
+  height: fit-content;
+  h1 {
+    margin: 0 0 1.5rem 2rem;
+    color: $primaryColorTwo;
+    font-size: 20px;
+  }
 }
