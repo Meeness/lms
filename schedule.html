@@ -98,60 +98,221 @@
 
         <!-- page content -->
 
-        <div class="page-content">
+        <div class="page-content page-content-schedule">
 
-<section class="schedule section">
+            <!-- schedule -->
 
-<div class="schedule__add">
-    <i class="fal fa-plus"></i>
-</div>
+            <section class="schedule section">
 
-<div class="schedule__choose">
-    <p>Month</p>
-    <p>Week</p>
-    <p class="active">Day</p>
-</div>
+                <div class="schedule__add">
+                    <i class="fal fa-plus"></i>
+                </div>
 
-<div class="schedule__dates">
-    <div class="schedule__dates__date">
-        <p>MON</p>
-        <span>,</span>
-        <p>OCT 3RD</p>
-    </div>
-    <div class="schedule__dates__date">
-        <p>TUE</p>
-        <span>,</span>
-        <p>OCT 4TH</p>
-    </div>
-    <div class="schedule__dates__date active">
-        <p>WED</p>
-        <span>,</span>
-        <p>OCT 5TH</p>
-    </div>
-    <div class="schedule__dates__date">
-        <p>THU</p>
-        <span>,</span>
-        <p>OCT 6TH</p>
-    </div>
-    <div class="schedule__dates__date">
-        <p>FRI</p>
-        <span>,</span>
-        <p>OCT 7TH</p>
-    </div>
-</div>
+                <div class="schedule__choose">
+                    <p data-type="month">Month</p>
+                    <p data-type="week">Week</p>
+                    <p data-type="day" class="active">Day</p>
+                </div>
 
-<div class="schedule__events">
-    <div class="schedule__events__event">
-        <div class="schedule__events__event__marker"></div>
-        <div class="schedule__events__event__info">
-            <h3>CULTURE AND STORY TELLING</h3>
-            <p><i class="fal fa-clock"></i> 09:00 - 10.15</p>
-            <p><i class="far fa-map-marker-alt"></i> VERITAS HALL 301</p>
-        </div>
-    </div>
-</div>
+                <div class="schedule__dates">
+                    <div class="schedule__dates__date">
+                        <p>MON</p>
+                        <span>,</span>
+                        <p>OCT 3RD</p>
+                    </div>
+                    <div class="schedule__dates__date">
+                        <p>TUE</p>
+                        <span>,</span>
+                        <p>OCT 4TH</p>
+                    </div>
+                    <div class="schedule__dates__date active">
+                        <p>WED</p>
+                        <span>,</span>
+                        <p>OCT 5TH</p>
+                    </div>
+                    <div class="schedule__dates__date">
+                        <p>THU</p>
+                        <span>,</span>
+                        <p>OCT 6TH</p>
+                    </div>
+                    <div class="schedule__dates__date">
+                        <p>FRI</p>
+                        <span>,</span>
+                        <p>OCT 7TH</p>
+                    </div>
+                </div>
 
-</section>
+                <!-- type:day -->
+
+                <div class="schedule__day">
+                    <div class="schedule__day__event">
+                        <div class="schedule__day__event__marker"></div>
+                        <div class="schedule__day__event__info">
+                            <h3>CULTURE AND STORY TELLING</h3>
+                            <p><i class="fal fa-clock"></i> 09:00 - 10.15</p>
+                            <p><i class="far fa-map-marker-alt"></i> VERITAS HALL 301</p>
+                        </div>
+                    </div>
+
+                    <div class="schedule__day__event">
+                        <div class="schedule__day__event__marker"></div>
+                        <div class="schedule__day__event__info">
+                            <h3>NETWORK AND MOBILE TECH.</h3>
+                            <p><i class="fal fa-clock"></i> 10:30 - 11:45</p>
+                            <p><i class="far fa-map-marker-alt"></i> INFO & COMPUTE 105</p>
+                            <p><i class="fal fa-clipboard-list-check"></i> 2 Tasks</p>
+                        </div>
+                    </div>
+
+                    <div class="schedule__day__event">
+                        <div class="schedule__day__event__marker"></div>
+                        <div class="schedule__day__event__info">
+                            <h3>SCIENCE AND SOCIETY</h3>
+                            <p><i class="fal fa-clock"></i> 12:00 - 13:15</p>
+                            <p><i class="far fa-map-marker-alt"></i> COLLEGE OF SOCIETY 12</p>
+                        </div>
+                    </div>
+
+                    <div class="schedule__day__event">
+                        <div class="schedule__day__event__marker"></div>
+                        <div class="schedule__day__event__info">
+                            <h3>UI/UX DESIGN</h3>
+                            <p><i class="fal fa-clock"></i> 15:00 - 17:45</p>
+                            <p><i class="far fa-map-marker-alt"></i> COLLEGE OF ARTS 1-308</p>
+                            <p><i class="fal fa-clipboard-list-check"></i> 1 Task</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- type:week -->
+
+                <div class="schedule__week">
+                    <div class="schedule__week__day">
+                        <p class="schedule__week__day__title">MON</p>
+                        <div class="schedule__week__day__event">
+                            <h3>ENGLISH 1</h3>
+                            <p>11:00 - 12:50</p>
+                            <p>Language 12</p>
+                        </div>
+                    </div>
+                    <div class="schedule__week__day">
+                        <p class="schedule__week__day__title">TUE</p>
+                        <div class="schedule__week__day__event">
+                            <h3>CULTURE & STORYTELL</h3>
+                            <p>09:00 - 10:15</p>
+                            <p>VERITAS 301</p>
+                        </div>
+                        <div class="schedule__week__day__event">
+                            <h3>SCIENCE & SOCIETY</h3>
+                            <p>12:00 - 13:15</p>
+                            <p>SOCIETY 12</p>
+                        </div>
+                        <div class="schedule__week__day__event">
+                            <h3>TEAM PROJECT</h3>
+                            <p>16:00 - 17:30</p>
+                            <p>CAFE BTC</p>
+                        </div>
+                    </div>
+                    <div class="schedule__week__day">
+                        <p class="schedule__week__day__title">WED</p>
+                        <div class="schedule__week__day__event">
+                            <h3>ENGLISH 1</h3>
+                            <p>11:00 - 11:50</p>
+                            <p>Language 12</p>
+                        </div>
+                        <div class="schedule__week__day__event">
+                            <h3>VR CONTENTS DESIGN</h3>
+                            <p>12:00 - 14:50</p>
+                            <p>ARTS 1-308</p>
+                        </div>
+                    </div>
+                    <div class="schedule__week__day">
+                        <p class="schedule__week__day__title">THU</p>
+                        <div class="schedule__week__day__event">
+                            <h3>CULTURE & STORYTELL</h3>
+                            <p>09:00 - 10:15</p>
+                            <p>VERITAS 301</p>
+                        </div>
+                        <div class="schedule__week__day__event">
+                            <h3>NETWORK & MOBILE TECH</h3>
+                            <p>10:30 - 11:45</p>
+                            <p>INFO 105</p>
+                        </div>
+                        <div class="schedule__week__day__event">
+                            <h3>SCIENCE & SOCIETY</h3>
+                            <p>12:00 - 13:15</p>
+                            <p>SOCIETY 12</p>
+                        </div>
+                        <div class="schedule__week__day__event">
+                            <h3>UI/UX DESIGN</h3>
+                            <p>15:00 - 17:45</p>
+                            <p>ARTS 1-308</p>
+                        </div>
+                        <div class="schedule__week__day__event">
+                            <h3>TOEIC LECTURE</h3>
+                            <p>18:30 - 22:00</p>
+                            <p>EAST AVE. 221</p>
+                        </div>
+                    </div>
+                    <div class="schedule__week__day">
+                        <p class="schedule__week__day__title">FRI</p>
+                        <div class="schedule__week__day__event">
+                            <h3>COMPUTER GRAPHIC 2</h3>
+                            <p>09:00 - 11:50</p>
+                            <p>INFO 109</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="overview section">
+                <h1>Overview</h1>
+                <form>
+                    <select name="overview">
+                        <option value="timeline" selected>Timeline</option>
+                        <option value="task" selected>Task</option>
+                        <option value="statue">Statue</option>
+                    </select>
+                </form>
+
+                <div class="overview__subject">
+                    <h3>UI/UX DESIGN</h3>
+                    <p><i class="fal fa-clock"></i> 15:00 - 17:45</p>
+                    <p><i class="far fa-map-marker-alt"></i> COLLEGE OF ARTS 1-308</p>
+                </div>
+
+                <div class="overview__task">
+                    <div class="overview__task__todo">
+                        <i class="far fa-list-ul"></i>
+                        <div class="overview__task__todo__text">
+                            <p>OCT 17 THU</p>
+                            <h3>MAKE SCENARIO BOARD</h3>
+                        </div>
+                    </div>
+                    <div class="overview__task__todo">
+                        <i class="far fa-check-circle"></i>
+                        <div class="overview__task__todo__text">
+                            <p>OCT 10 THU</p>
+                            <h3>Analysis User experience</h3>
+                        </div>
+                    </div>
+                    <div class="overview__task__todo">
+                        <i class="far fa-check-circle"></i>
+                        <div class="overview__task__todo__text">
+                            <p>OCT 3 THU</p>
+                            <h3>Write App business plan</h3>
+                        </div>
+                    </div>
+                    <div class="overview__task__todo">
+                        <i class="far fa-check-circle"></i>
+                        <div class="overview__task__todo__text">
+                            <p>SEP 26 THU</p>
+                            <h3>Search User experience</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </div>
 
