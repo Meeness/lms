@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Performance</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2>Performance</h2>
+            <div class="hamburger hamburger--minus">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </div>
+        </nav>
+        <div class="search-wrapper">
+            <input type="text" class="quicksearch search2" placeholder="Search" />
+        </div>
+
+        <div class="bignav">
+            <div class="bignav__text">
+                <h3>Steve R.</h3>
+                <p>KEA</p>
+            </div>
+            <img src="./assets/230X230.png" alt="profile photo">
+        </div>
+    </header>
+
+    <main class="main-main">
+
+        <!-- menu -->
+
+        <aside class="menu">
+            <a href="" class="menu__item" title="Dashboard">
+                <div class="menu__item__inner">
+                    <i class="fas fa-home-lg"></i>
+                    <p>Dashboard</p>
+                </div>
+            </a>
+
+            <a href="" class="menu__item" title="My subjects">
+                <div class="menu__item__inner">
+                    <i class="fad fa-graduation-cap"></i>
+                    <p>My subjects</p>
+                </div>
+            </a>
+
+            <a href="" class="menu__item" title="Performance">
+                <div class="menu__item__inner active">
+                    <i class="fad fa-chart-bar"></i>
+                    <p>Performance</p>
+                </div>
+            </a>
+
+            <a href="" class="menu__item" title="Schedule">
+                <div class="menu__item__inner">
+                    <i class="far fa-calendar-alt"></i>
+                    <p>Schedule</p>
+                </div>
+            </a>
+
+            <a href="" class="menu__item" title="Assignments">
+                <div class="menu__item__inner">
+                    <i class="fal fa-clipboard-list-check"></i>
+                    <p>Assignments</p>
+                </div>
+            </a>
+
+            <a href="" class="menu__item" title="Messages">
+                <div class="menu__item__inner">
+                    <i class="fas fa-comment-lines"></i>
+                    <p>Messages</p>
+                </div>
+            </a>
+
+            <a href="" class="menu__item" title="Events">
+                <div class="menu__item__inner">
+                    <i class="fal fa-glass-cheers"></i>
+                    <p>Events</p>
+                </div>
+            </a>
+
+            <a href="" class="menu__item account-link" title="My account">
+                <div class="menu__item__inner">
+                    <i class="fad fa-user-alt"></i>
+                    <p>My account</p>
+                </div>
+            </a>
+        </aside>
+
+        <!-- page content -->
+
+        <div class="page-content page-content-performance">
+
+            <!-- performance -->
+
+            <section class="performance section">
+                <h1>Statistics</h1>
+                <form>
+                    <select name="subject">
+                        <option value="all" selected>All</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="databases">Databases</option>
+                        <option value="user-experience">User Experience</option>
+                    </select>
+
+                    <select name="view">
+                        <option value="everyone" selected>Everyone</option>
+                        <option value="just-me">Just me</option>
+                    </select>
+
+                    <select name="type">
+                        <option value="vertical" selected>Vertical</option>
+                        <option value="horizontal">Horizontal</option>
+                    </select>
+                </form>
+
+                <div class="performance__inner">
+
+                    <template class="graph">
+                        <div class="performance__inner__row">
+                            <p>1</p>
+                            <div class="performance__inner__row__pillar">
+                                <div>
+                                    <h3>11.5</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+
+                </div>
+
+            </section>
+
+            <!-- categories -->
+
+            <!-- subjects -->
+
+
+            <section class="subjects categories section">
+                <h1>Subjects</h1>
+                <div class="categories__inner">
+                <div class="categories__inner__button">
+                    <p>Web Development</p>
+                </div>
+                <div class="categories__inner__button">
+                    <p>Databases</p>
+                </div>
+                <div class="categories__inner__button">
+                    <p>User Experience</p>
+                </div>
+            </div>
+            </section>
+
+            <!-- other courses -->
+
+            <section class="categories section otherCourses">
+                <h1>Other courses</h1>
+                <div class="categories__inner">
+                <div class="categories__inner__button">
+                    <p>Software Development</p>
+                </div>
+                <div class="categories__inner__button">
+                    <p>Design and Business</p>
+                </div>
+                <div class="categories__inner__button">
+                    <p>Product Development</p>
+                </div>
+                <div class="categories__inner__button">
+                    <p>Computer Science</p>
+                </div>
+                <div class="categories__inner__button">
+                    <p>Design, Technology and Business</p>
+                </div>
+            </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <script src="js/dashboard.js"></script>
+    <script src="js/performance.js"></script>
+</body>
+
+</html>
